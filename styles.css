@@ -88,3 +88,47 @@ body{
     height: 350px;
     width: 500px;
 }
+.second-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.picture-gallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.picture-block img{
+    border: 4px solid #3882F6;
+    border-radius: 14px;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    margin: 0px 10px 0px 10px;  
+}
+
+.third-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 0 200px;
+}
+.third-section p{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+}
+.third-section b{
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-family: 'Roboto', arial;
+    text-align: right;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+    font-family: 'Roboto', arial;
+}
