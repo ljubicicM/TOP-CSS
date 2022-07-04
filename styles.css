@@ -126,7 +126,33 @@ body{
     font-family: 'Roboto', arial;
     text-align: right;
 }
-
+.fourth-section{
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 12px;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    border-color: none;
+}
+.fourth-text{
+    flex: 1;
+    text-align: left;
+}
+.fourth-text p{
+    color: #fff;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
+.fourth-text h3{
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+.fourth-button{
+    flex: 1;
+}
 .footer {
     background-color: #1F2937;
     color: #fff;
